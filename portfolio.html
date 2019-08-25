@@ -120,7 +120,10 @@
 									</div>
 									<div class="col-md-9 mt-sm-20 left-align-p">
 										<h3 class="mb-30">Minesweeper AI Bot</h3>
-										<p>I need to write something about this. Work in progress. </p>
+										<p> The project goal was to create a computer bot which can play Minesweeper at different difficulty levels. We created 3 different solvers:</p>
+										<p>	Basic Solver - The basic solver is the most risk-free solver which will not think on its own but just play the safest moves possible. It will stop the game if there are no further safe moves possible. </p>
+										<p>	CSP Solver: This is the main bot which plays the game just like humans. CSP refers to Constraint Satisfaction Problem since this is the main algorithm used by the agent. It plays the game just like a normal human - by creating different constraints for each square opened and each mine flagged. When it opens a cell or flags it, the knowledge base is updated and the constraints/equations are resolved.</p>
+										<p>	Bonus CSP Solver: This is just en extension of the the CSP solver. Unlike a typical mineweeper game where the agent will know what lies behind a cell once it is opened, this solver will only get the information with some probability.</p>
 										<a href = "https://github.com/nitinkarolla/AI/tree/master/MineSweeper" target = "_blank" class = "genric-btn primary circle" style="margin-right: 1%">CODE</a>
 										<a href = "doc/Minesweeper.pdf" target = "_blank" class = "genric-btn primary circle">TECHNICAL REPORT</a>
 									</div>
@@ -146,7 +149,10 @@
 										</div>
 										<div class="col-md-9 mt-sm-20 left-align-p">
 											<h3 class="mb-30">Maze Solver AI Bot - Analyzing Search Algorithms</h3>
-											<p>I need to write something about this. Work in progress. </p>
+											<p>This was second project for CS520 - Introduction to Artificial Intelligence. As the name suggests, the project goal was to create a computer bot which can play Minesweeper at different difficulty levels. We created 3 different solvers:</p>
+											<p>	Basic Solver - The basic solver is the most risk-free solver which will not think on its own but just play the safest moves possible. It will stop the game if there are no further safe moves possible. It is a baseline model which we developed to evaluate the accuracy and effectiveness of the other complex models. </p>
+											<p>	CSP Solver: This is the main bot which plays the game just like humans. CSP refers to Constraint Satisfaction Problem since this is the main algorithm used by the agent. It plays the game just like a normal human - by creating different constraints for each square opened and each mine flagged. When it opens a cell or flags it, the knowledge base is updated and the constraints/equations are resolved.</p>
+											<p>	Bonus CSP Solver: This is just en extension of the the CSP solver. Unlike a typical mineweeper game where the agent will know what lies behind a cell once it is opened, this solver will only get the information with some probability. Hence, if it opens a cell, there is an 80% chance of the agent receiving the correct information. </p>
 											<a href = "https://github.com/nitinkarolla/AI/tree/master/MazeRunner" target = "_blank" class = "genric-btn primary circle" style="margin-right: 1%">CODE</a>
 											<a href = "doc/Mazerunner.pdf" target = "_blank" class = "genric-btn primary circle">TECHNICAL REPORT</a>
 										</div>
